@@ -323,6 +323,8 @@ const Navbar = () =>
         background: 'darkblue'
       }}
     >Login</NavLink>
+
+    <NavLink to="/login" exact style={link} activeStyle={{ background: 'darkblue' }}>Login</NavLink>
   </div>;
 
 const Home = () => <h1>Home!</h1>;
